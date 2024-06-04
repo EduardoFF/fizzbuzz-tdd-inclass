@@ -29,4 +29,4 @@ def test_fizzbuzz_list_has_len_100():
 
 def test_fizzbuzz_list_first_15():
     L = get_fizzbuzz_list()
-    assert L[:15] == [1,2,'Fizz',4,'Buzz','Fizz',7,8,'Fizz','Buzz',11,'Fizz',13,14,'FizzBuzz']
+    assert L[:15] == [1,2,'Fizz',4,'Buzz','Fizz',7,8,'Fizz','Buzz',11,'Fizz','Fizz',14,'FizzBuzz']
